@@ -1,9 +1,9 @@
-package Chap_09;
+package chap_09;
 
 
-import Chap_09.User.User;
-import Chap_09.User.vipUser;
-import Chap_09.coffee.*;
+import chap_09.User.User;
+import chap_09.User.vipUser;
+import chap_09.coffee.*;
 
 public class _02_GenericsClass {
     public static void main(String[] args) {

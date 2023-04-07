@@ -1,4 +1,4 @@
-package Chap_09.coffee;
+package chap_09.coffee;
 
 public class Coffee <T> {
     public T name;

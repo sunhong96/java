@@ -1,6 +1,6 @@
-package Chap_09.coffee;
+package chap_09.coffee;
 
-import Chap_09.User.User;
+import chap_09.User.User;
 
 public class CoffeeByUser <T extends User>//어떤타입이든 상관없는데 User를 상속하는 클래스만 사용가능
 {
