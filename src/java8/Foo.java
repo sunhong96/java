@@ -30,8 +30,8 @@ public class Foo {
         System.out.println(plus10.apply(1));
         //Function<Integer, Integer> plus10 = (i) -> i +10; 이렇게 바꿔줄수있음 plus10 인터페이스에 있는걸
         Function<Integer, Integer> multiply2 = (i) -> i * 2;
-//        UnaryOperator<Integer> plus11 = (i) -> i + 11; 입력값과 결과값의 타입이 같을때 사용살수있음
-//        BinaryOperator 3개도 가능
+//        UnaryOperator<Integer> plus11 = (i) -> i + 11; 입력값과 결과값의 타입이 같을때 사용할수있음
+//        Function<Integer, Integer> 이 표현식을 이렇게 표현가능 BinaryOperator<Integer> 3개도 가능
         System.out.println(multiply2.apply(2));
 
         plus10.compose(multiply2); //compose는 입력값을 가지고 뒤에있는 함수를 적용하고 결과값을 다시 앞에 plus10의 변수에사용
