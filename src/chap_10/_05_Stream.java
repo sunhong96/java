@@ -14,17 +14,17 @@ public class _05_Stream {
         int[] scores = {100, 95, 90, 85, 80};
         IntStream scoreStream = Arrays.stream(scores); //만들걸 바로 객체로 만들고싶으면 ctrl+alt+v
 
-        String[] langs = {"pytion", "java", "javascript", "c", "c++", "c#"};
+        String[] langs = {"python", "java", "javascript", "c", "c++", "c#"};
         Stream<String> langstream = Arrays.stream(langs);
 
         List<String> langlist = new ArrayList<>();
-        langlist = Arrays.asList("pytion", "java", "javascript", "c", "c++", "c#");
+        langlist = Arrays.asList("python", "java", "javascript", "c", "c++", "c#");
         // langlist.add(xxxxx)한개한개씩 넣어주는효과랑 똑같음
 
         Stream<String> langListStream = langlist.stream();
 
         // Stream.of();
-        Stream<String> langListOfStream = Stream.of("pytion", "java", "javascript", "c", "c++", "c#");
+        Stream<String> langListOfStream = Stream.of("python", "java", "javascript", "c", "c++", "c#");
 
         // 스트림 사용
         // 중간 연산 (Intermediate Operation) : filter, map, sorted, distinct, skip, ....

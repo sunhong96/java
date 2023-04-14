@@ -4,7 +4,7 @@ import java.util.HashMap;
 
 public class _07_HashMap {
     public static void main(String[] args) {
-        // 맵 (key, Value) key 값을 통해 value 값을 가져오는 것
+        // 맵 (key, Value) key 값을 통해 value 값을 가져오는 것 key 값은 null이 될수없다
         HashMap<String, Integer> map = new HashMap<>();// LinkedHashMap 은 순서를 보장해줌
 
         //데이터 추가
