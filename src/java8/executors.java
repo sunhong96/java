@@ -10,6 +10,6 @@ public class executors {
         executorService.submit(() -> System.out.println("Thread" + Thread.currentThread().getName()));
         //다음 작업이 들어오기전까지 계속 수행함
 
-        executorService.shutdown(); // 강제 종료 시켜줘야댐
+        executorService.shutdown(); // 강제 종료 시켜줘야함
     }
 }
