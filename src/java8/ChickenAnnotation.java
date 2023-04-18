@@ -1,8 +1,5 @@
 package java8;
 
-import jdk.dynalink.beans.StaticClass;
-
-import java.lang.annotation.Annotation;
 import java.util.Arrays;
 
 @Chicken("양념")
